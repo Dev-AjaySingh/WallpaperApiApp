@@ -13,7 +13,7 @@ Wallpaper API App is an Android application that allows users to browse and set 
 Language: Java </br>
 UI: XML (Material Design) </br>
 Networking: Retrofit </br>
-Image Api: Pexels </br>
+Fetching Images from Api: Pexels </br>
 Image Loading: Glide </br>
 RecyclerView: For smooth scrolling and list display </br>
 ## 📸 Screenshots 
