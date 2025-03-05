@@ -2,7 +2,7 @@
 Wallpaper API App is an Android application that allows users to browse and set high-quality wallpapers directly from an online API. The app features a seamless user experience with a modern UI, efficient image loading, and smooth navigation.
 
 ## ✨ Features
-✔ Fetch and display wallpapers from a remote API </br>
+✔ Fetch and display wallpapers from a Pexels API </br>
 ✔ Categorized wallpapers for easy browsing </br>
 ✔ High-resolution image previews </br>
 ✔ Set images as wallpapers with a single tap </br>
