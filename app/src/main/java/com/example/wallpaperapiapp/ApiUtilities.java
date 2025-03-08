@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class ApiUtilities {
 
     private static Retrofit retrofit=null;
-    public static final String API="GE7AUjXMOmaSg3ECAlazuBuKflor1hkeaqFI9w1gdA3ZrKZVFdMMZ91I";
+    public static final String API="";
 
     public static ApiInterface getApiInterface()
     {
