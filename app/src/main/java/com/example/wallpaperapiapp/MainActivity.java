@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     private ArrayList<ImageModel>modelClasslist;
     private RecyclerView recyclerView;
     Adapter adapter;
-    CardView mnature,mbus,mcar,mtrain,mtrending;
+    CardView mnature,mbus,mcar,mtrain,mtrending,laptop,tree;
     EditText editText;
     ImageButton search;
 
@@ -49,6 +49,8 @@ public class MainActivity extends AppCompatActivity {
         mtrending=findViewById(R.id.trending);
         editText=findViewById(R.id.edittext);
         search=findViewById(R.id.search);
+        laptop=findViewById(R.id.laptop);
+        tree=findViewById(R.id.tree);
 
 
         modelClasslist=new ArrayList<>();
@@ -93,7 +95,21 @@ public class MainActivity extends AppCompatActivity {
                 getsearchimage(query);
             }
         });
+        laptop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String query="laptop";
+                getsearchimage(query);
+            }
+        });
 
+        tree.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String query="tree";
+                getsearchimage(query);
+            }
+        });
         search.setOnClickListener(new View.OnClickListener() {
 
             @Override
